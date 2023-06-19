@@ -7,7 +7,7 @@ use mouse_position::mouse_position::Mouse;
 use enigo::*;
 use std::str::FromStr;
 
-const DELTA: i32 = 100;
+const DELTA: i32 = 1;
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
